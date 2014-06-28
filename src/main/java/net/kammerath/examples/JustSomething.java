@@ -1,3 +1,5 @@
+package net.kammerath.examples;
+
 import java.util.function.Function;
 
 public class JustSomething {
