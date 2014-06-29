@@ -11,8 +11,7 @@ public class JustSomething {
 	 * any input and returning a strings
      */
 	public static <T> Function<T, String> SomeMethod() {
-		return (name) -> {
-			return "Hello " + name;
-		};
-	}
+
+        return (name) -> "Hello " + name;
+    }
 }
