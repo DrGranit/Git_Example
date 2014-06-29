@@ -15,8 +15,4 @@ public class JustSomething {
 			return "Hello " + name;
 		};
 	}
-	
-	public void someMistake() {
-		
-	}
 }
