@@ -11,7 +11,7 @@ public class JustSomething {
 	 * any input and returning a strings
      */
 	public static <T> Function<T, String> SomeMethod() {
-
+        // Goodbye
         return (name) -> "Hello " + name;
     }
 	
