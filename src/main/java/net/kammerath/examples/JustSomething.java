@@ -6,15 +6,12 @@ public class JustSomething {
 
     /**
      * Creates a function to prepare a greeting.
-     * <b>note:</b><i>Doesn't allow for numbers within the greeting string.</i>
-     *
-     * @return a "Hello World" function taking two strings
+     * 
+     * @return a "Hello World" function taking 
+	 * any input and returning a strings
      */
-    public static Function<String, String> SomeMethod() {
+	public static <T> Function<T, String> SomeMethod() {
 		return (name) -> {
-			if (name.matches(".*\\d.*"))
-				throw new IllegalArgumentException(
-						"Input string may not contain numeric characters");
 			return "Hello " + name;
 		};
 	}
