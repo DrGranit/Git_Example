@@ -18,7 +18,7 @@ public class JustSomething {
 	
 	public void hi() {}
 	
-	public void goodbye() {
-		
+	public String goodbye() {
+		return "bye bye";
 	}
 }
