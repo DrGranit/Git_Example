@@ -14,4 +14,7 @@ public class JustSomething {
 
         return (name) -> "Hello " + name;
     }
+	
+	
+	public void hi() {}
 }
