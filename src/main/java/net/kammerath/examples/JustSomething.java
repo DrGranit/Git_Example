@@ -17,4 +17,8 @@ public class JustSomething {
 	
 	
 	public void hi() {}
+	
+	public void goodbye() {
+		
+	}
 }
